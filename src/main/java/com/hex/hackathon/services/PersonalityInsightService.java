@@ -30,7 +30,7 @@ public class PersonalityInsightService {
 
 				  Profile profile = 
 				    personalityInsights.profile(profileOptions).execute();
-				  System.out.println(profile);
+				  //System.out.println(profile);
 		return profile.toString();
 	}
 }
